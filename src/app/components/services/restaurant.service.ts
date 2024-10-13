@@ -9,7 +9,7 @@ import { Restaurant } from '../models/restaurant.model';
     providedIn: 'root',
 })
 export class RestaurantService {
-    private apiUrl = 'http://localhost:3000/api/restaurants';
+    private apiUrl = 'https://restaurant-be-j9f6.onrender.com/api/restaurants';
 
     constructor(private http: HttpClient) { }
 
