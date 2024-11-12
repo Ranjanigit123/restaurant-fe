@@ -15,6 +15,7 @@
           "options": {
             
             "outputPath": "dist/client",
+            "baseHref": "/portfolio/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
